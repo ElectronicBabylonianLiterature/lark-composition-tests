@@ -1,0 +1,5 @@
+start: textline | common_line | legacy_line
+
+?textline: "This is an eBL textline" | "This is an oracc-style textline"
+?common_line: "And this is a common linetype"
+?legacy_line: "Here is an oracc-specific linetype"

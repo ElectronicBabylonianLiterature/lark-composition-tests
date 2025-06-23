@@ -1,0 +1,4 @@
+start: textline | common_line
+
+?textline: "This is an eBL textline"
+?common_line: "And this is a common linetype"

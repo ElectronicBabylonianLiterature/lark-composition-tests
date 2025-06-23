@@ -1,0 +1,7 @@
+%import .ebl_atf (textline, common_line, start)
+
+
+?oracc_line: "Here is an oracc-specific linetype"
+
+%extend textline: "This is an oracc-style textline"
+%extend start: oracc_line
